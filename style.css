@@ -149,12 +149,12 @@ header{
 .tools button{
     width: 188px;
     height: 50px;
-    background-color: white;
-    border-color: black;
+    background-color: transparent;
     margin-top: 20px;
-    color: #262626;
     font-weight: 900;
+    color: #262626;
     font-size: 15px;
+    border: 1.2px solid #262626 ;
 }
 .section-4 img{
     width: 100%;
@@ -189,6 +189,7 @@ header{
     margin-top: 17px;
     font-weight: 800;
     border-radius: 5px;
+    border: 1px solid white;
 }
 .section-5 img{
     width: 100%;
@@ -211,6 +212,7 @@ header{
     margin-left: 88px;
     border-radius: 4px;
     font-size: 20px;
+    border: 1px solid white;
 }
 .banner-1{
     display: flex;
@@ -250,7 +252,7 @@ header{
     color: #262626;
     font-weight: 600;
     border-radius: 4px;
-    border: 1px solid black;
+    border: 1px solid #262626;
 }
 .border{
     background-color: lightgrey;
@@ -329,18 +331,17 @@ header{
     color: #0653b6;
 }
 .section-6 button:hover{
-    border-width: 3px;
-    border: 2px solid black;
+    border-width: 2px;
 
 }
 .section-5 button:hover{
-    border-width: 3px;
+    border-width: 2px;
 }
 .section-4 button:hover{
-    border-width: 3px;
+    border-width: 2px;
 }
 .tools button:hover{
-    border-width: 3px;
+    border-width: 2px;
 }
 .bg-image button:hover{
     background-color: #0653b6;
