@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#bmw-video{
+    position: absolute;
+    width: 100%;
+}
+header{
+    position: relative;
+}
+.bmw-logo img{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.main-nav ul{
+    display: flex;
+    margin-left: 28vh;
+    margin-top: -40px;
+    gap: 35px;
+} 
+.main-nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.main-nav li {
+    list-style-type: none;
+
+
+} 
+.right-nav-icons{
+    margin-top: -41px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 93px;
+    gap: 25px;
+}
+.header-border-line{
+    height: 1px;
+    background-color: white;
+    margin-top: 25px;
+    width: 86%;
+    margin-left: 97px;
+}
+.section-1 h4{
+    color: white;
+    font-weight: 100;
+    padding-left: 95px;
+}
+.section-1 h3{
+    color: white;
+    padding-left: 105px;
+    padding-top: 75px;
+    letter-spacing: 1px;
+}
+.i5{
+    padding-left: 98px;
+    color: white;
+    font-size: 122px;
+    margin-top: -130px;
+    letter-spacing: 5px;
+}
+.section-1 h2{
+    margin-top: -125px;
+    color: white;
+    padding-left: 98px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.section-1 img{
+    height: 15px;
+    width: 35px;
+}
+.section-1  button{
+    color: white;
+    background-color: #1c69d4;
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.bg-image img{
+    width: 100%;
+    margin-top: 260px;
+    height: 104vh;
+}
+.bg-image h6{
+    color: white;
+    margin-top: -66vh;
+    padding-left: 87px;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.bg-image h3{
+    color: white;
+    font-weight: lighter;
+    padding-left: 88px;
+    margin-top: -32px;
+    font-size: 23px;
+}
+.bg-image h1{
+    color: white;
+    font-weight: lighter;
+    padding-left: 85px;
+    margin-top: -25px;
+    font-size: 58px;
+}
+.bg-image button{
+    color: white;
+    background-color: #1c69d4;
+    border: none;
+    border-radius: 5px;
+    margin-left: 88px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.heading-shopping-tools h6{
+    text-align: center;
+    margin-top: 43vh;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: darkgrey;
+}
+.find-your-bmw h1{
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: -15px;
+}
+.shopping-tools{
+    display: flex;
+    text-align: center;
+}
+.tools img{
+    height: 20vh;
+    width: 69vh;
+}
+.tools p{
+    font-size: 18px;
+}
+.tools button{
+    width: 188px;
+    height: 50px;
+    background-color: white;
+    border-color: black;
+    margin-top: 20px;
+    color: #262626;
+    font-weight: 900;
+    font-size: 15px;
+}
+.section-4 img{
+    width: 100%;
+    margin-top: 80px;
+}
+.section-4 h3 img{
+    height: 16px;
+    width: 40px;
+}
+.section-4 h1{
+    margin-top: -51vh;
+    padding-left: 100px;
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+}
+.section-4 h3{
+    margin-top: -105px;
+    padding-left: 100px;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.section-4 button{
+    background: transparent;
+    border-color: white;
+    width: 145px;
+    height: 50px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 17px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.section-5 img{
+    width: 100%;
+    margin-top: 24vh;
+    height: 75vh;
+}
+.section-5 h1{
+    margin-top: -48vh;
+    color: white;
+    font-weight: lighter;
+    padding-left: 85px;
+    font-size: 45px;
+}
+.section-5 button{
+    background: transparent;
+    width: 196px;
+    height: 50px;
+    border-color: white;
+    color: white;
+    margin-left: 88px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.banner-1{
+    display: flex;
+    margin-top: 21vh;
+    gap: 37px;
+    justify-content: center;
+}
+.banner-2{
+    display: flex;
+    margin-top: 5vh;
+    gap: 37px;
+    justify-content: center;
+}
+.section-6 img{
+    width: 90vh;
+}
+.section-6 h6{
+    padding-top: 35px;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.section-6 h1{
+    color: #262626;
+    font-weight: lighter;
+    font-size: 40px;
+}
+.section-6 p{
+    color: #262626;
+    font-size: 17px;
+}
+.section-6 button{
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    color: #262626;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.border{
+    background-color: lightgrey;
+    height: 1px;
+    margin-top: 60px;
+}
+.find-bmw{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 92px;
+}
+.find-bmw p{
+    font-size: 12px;
+}
+.find-bmw a{
+    text-decoration: none;
+    color: #262626;
+    font-weight: 600;
+}
+.footer-contents{
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 72vh;
+    margin-top: 20px;
+}
+.footer-elements{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+.elements a{
+    text-decoration: none;
+    color: #4d4d4d;
+    font-weight: 600;
+    font-size: 15px;
+}
+.elements p{
+    color: #4d4d4d;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.elements{
+    padding-top: 2vh;
+}
+.social-media-icons{
+    display: flex;
+    gap: 20px;
+    padding-left: 88px;
+    margin-top: 80px;
+}
+.bottom-contents div{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15px;
+    margin-right: 30px;
+}
+.bottom-contents{
+    height: 60px;
+}
+.bottom-contents p{
+    font-size: 13px;
+    padding-top: 15px;
+    padding-left: 95px;
+}
+.bottom-contents a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 14px;
+}
+.bottom-contents a:hover{
+    color: #0653b6;
+}
+.find-bmw a:hover{
+    color: #0653b6;
+}
+.section-6 button:hover{
+    border-width: 3px;
+}
+.section-5 button:hover{
+    border-width: 3px;
+}
+.section-4 button:hover{
+    border-width: 3px;
+}
+.tools button:hover{
+    border-width: 3px;
+}
+.bg-image button:hover{
+    background-color: #0653b6;
+}
+.section-1 button:hover{
+    background-color: #0653b6;
+}
